@@ -9,3 +9,4 @@ const total: number = calcularTotal(preco, quantidade);
 
 console.log(`Produto: ${produto}`);
 console.log(`Quantidade: ${quantidade}`);
+console.log('Total: R$ ${total.toFixed(2)}');
