@@ -9,6 +9,5 @@ int main(void) {
     printf("Produto: %s\n", produto);
     printf("Quantidade: %d\n", quantidade);
     printf("Preço: R$ %.2f\n", preco);
-
     return 0;
 }
