@@ -8,6 +8,5 @@ if ($preco < 0 || $quantidade <= 0) {
     echo "Valores inválidos.\n";
     exit;
 }
-
 $total = $preco * $quantidade;
 echo "Total: R$ " . number_format($total, 2, ',', '.') . "\n";
