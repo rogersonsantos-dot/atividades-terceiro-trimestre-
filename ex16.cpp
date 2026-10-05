@@ -1,13 +1,11 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
     double nota;
-
     cout << "Pontuacao (0 a 10): ";
-    cin >> nota;
-
+cin >> nota;
+    
     if (nota < 0 || nota > 10) {
         cout << "Pontuacao invalida.\n";
     } else if (nota < 4) {
@@ -19,6 +17,5 @@ int main() {
     } else {
         cout << "Excelente\n";
     }
-
     return 0;
 }
