@@ -9,11 +9,9 @@ int main(void) {
         printf("Informe um numero nao negativo.\n");
         return 0;
     }
-
     for (int numero = inicio; numero >= 0; numero--) {
         printf("%d\n", numero);
     }
-
     printf("Fim da contagem!\n");
     return 0;
 }
