@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-
 using namespace std;
 
 int main() {
@@ -14,7 +13,6 @@ int main() {
         cout << "Palpite de 1 a 10: ";
         cin >> palpite;
         tentativa++;
-
         if (palpite == segredo) {
             cout << "Acertou em " << tentativa << " tentativa(s)\n";
         } else if (palpite < segredo) {
@@ -23,10 +21,8 @@ int main() {
             cout << "Tente um número menor.\n";
         }
     }
-
     if (palpite != segredo) {
         cout << "Fim! O número era " << segredo << " ~.\n";
     }
-
     return 0;
 }
